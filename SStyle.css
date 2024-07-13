@@ -635,7 +635,7 @@ body::-webkit-scrollbar-thumb{
     .mobile-menu {
         width: 95%;
         height: auto;
-        position: fixed;
+        position: absolute;
         top: 5px;
         background: #dcdcdc;
         
