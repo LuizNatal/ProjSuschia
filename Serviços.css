@@ -651,14 +651,26 @@ body::-webkit-scrollbar-thumb{
 
 @media (max-width: 900px)  {
 
-    .box:hover{
-    width:50%;
+    .box{
+    width: 30%;
     min-height: 125px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 15 4%;
+    padding: 0 2%;
+    transition: 0.5s;
+    
+}
+
+.box:hover{
+    width:35%;
+    min-height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30 5%;
 }
 
     
