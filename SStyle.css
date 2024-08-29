@@ -12,7 +12,7 @@ html,body {
     
 }
 body {
-touch-action: manipulation;
+touch-action: none;
 }
 .bg {
     background: url(img/Background.png) no-repeat;
