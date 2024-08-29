@@ -8,10 +8,13 @@
 
 html,body {
     height:100%;
+    width:100%;
     
 }
-
 body {
+touch-action: manipulation;
+}
+.bg {
     background: url(img/Background.png) no-repeat;
     background-size: cover;
     background-attachment: fixed;
