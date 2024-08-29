@@ -1251,6 +1251,14 @@ p {
 
 @media (max-width: 425px) {
 
+    .bg{
+        background: url(img/Background.png) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        object-fit: cover;
+        background-position: center;
+    }
+
     
     h3 {
         color: white;
