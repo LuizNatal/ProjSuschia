@@ -186,22 +186,6 @@ button:hover{
 
 /* Box */
 
-.box{
-    width: 25%;
-    min-height: 125px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 2%;
-    transition: 0.5s;
-    
-}
-
-
-
-/* Info */
-
 .info{
     display: flex;
 }
