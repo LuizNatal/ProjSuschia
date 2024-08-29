@@ -198,15 +198,7 @@ button:hover{
     
 }
 
-.box:hover{
-    width:30%;
-    min-height: 125px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 15 4%;
-}
+
 
 /* Info */
 
@@ -650,30 +642,6 @@ body::-webkit-scrollbar-thumb{
         
 
 @media (max-width: 900px)  {
-
-    .box{
-    width: 70%;
-    min-height: 125px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 2%;
-    transition: 0.5s;
-    
-}
-
-.box:hover{
-    width: 70%;
-    min-height: 125px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 15 4%;
-}
-
-    
 
     .logo{
         background: url(img/Logo_do_suschia-removebg-preview\ \(2\).png);
