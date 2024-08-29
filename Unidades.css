@@ -1457,6 +1457,14 @@ p {
 
 @media (max-width: 425px) {
 
+    .bg{
+        background: url(img/Background.png) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        object-fit: cover;
+        background-position: center;
+    }
+
     .logo{
         background: url(img/Logo_do_suschia-removebg-preview\ \(2\).png);
         background-size: contain;
