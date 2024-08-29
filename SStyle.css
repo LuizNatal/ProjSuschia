@@ -6,6 +6,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html,body {
+    height:100%;
+}
 
 body {
 touch-action: none;
