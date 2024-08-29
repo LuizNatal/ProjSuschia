@@ -11,6 +11,13 @@ html,body {
     
 }
 
+body {
+    background: url(img/Background.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
 .max-width{
     width: 100%;
     min-height: 100vh;
@@ -932,7 +939,7 @@ body::-webkit-scrollbar-thumb{
 
 @media (max-width: 425px) {
 
-    .bg{
+    body{
         background: url(img/Background.png) no-repeat;
         background-size: cover;
         background-attachment: fixed;
